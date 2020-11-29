@@ -1,8 +1,8 @@
 # Setup
 title: BlueDiablos Android Studio Blog
-url: https://stiaannel.co.za/blog2
+url: https://stiaannel.co.za/bluediablos-android-studio-blog
 paginate: 1
-baseurl: "/blog2"
+baseurl: "/bluediablos-android-studio-blog"
 permalink: pretty
 
 # Gems
@@ -42,7 +42,7 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Archive
-    url: /archive
+    url: /bluediablos-android-studio-blog/archive
 
   - title: About
-    url: /about
+    url: /bluediablos-android-studio-blog/about
