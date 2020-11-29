@@ -1,8 +1,8 @@
 # Setup
 title: BlueDiablos Android Studio Blog
-url: https://getpoole.com
+url: https://stiaannel.co.za/blog2
 paginate: 1
-baseurl: ""
+baseurl: "/blog2"
 permalink: pretty
 
 # Gems
