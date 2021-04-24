@@ -1,80 +1,29 @@
-:root {
-  --gray-000: #f8f9fa;
-  --gray-100: #f1f3f5;
-  --gray-200: #e9ecef;
-  --gray-300: #dee2e6;
-  --gray-400: #ced4da;
-  --gray-500: #adb5bd;
-  --gray-600: #868e96;
-  --gray-700: #495057;
-  --gray-800: #343a40;
-  --gray-900: #212529;
-  --dark-poole-001: hsl(200, 3%, 12%);
-  --dark-poole-002: hsl(0, 0%, 85%);
-  --dark-poole-link-color: rgba(255, 255, 255, 0.75);
-  --dark-poole-link-hover: #fff;
+// Color scheme for light and dark modes.
 
-  --red: #fa5252;
-  --pink: #e64980;
-  --grape: #be4bdb;
-  --purple: #7950f2;
-  --indigo: #4c6ef5;
-  --blue: #228be6;
-  --cyan: #15aabf;
-  --teal: #12b886;
-  --green: #40c057;
-  --yellow: #fab005;
-  --orange: #fd7e14;
-  --black: #000;
+$light: #ff0066;
+$dark: #1ba77e;
 
-  --blue-300: #74c0fc;
-  --blue-400: #4dabf7;
-  --yellow-100: #fff3bf;
+// Highlighting color for code block borders and language name.
 
-  --body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",stickbugged siong
+$code-light: #ff0066;
+$code-dark: #d0f6db;
 
-  --link-color: var(--blue);
-  --link-hover-color: #1c7ed6;
+$message-green: #62bb47;
+$message-yellow: #fcb827;
+$message-orange: #f6821f;
+$message-red: #e03940;
+$message-purple: #953c96;
+$message-blue: #009ddc;
 
-  --heading-color: var(--gray-900);
+$root-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$code-font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$root-font-size: 16px;
+$root-line-height: 1.5;
 
-  --border-color: var(--gray-300);
-  --border-radius: 0.25rem;
+$body-color: rgba(0,0,0,.8);
+$body-bg: rgba(0,0,0,.03);
+$body-color-dark: hsla(0,0%,100%,.8);
+$body-bg-dark: rgba(0,0,0,1);
 
-  --code-font: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-    "Courier New", monospace;
-  --code-color: var(--grape);
-  --code-bg: var(--gray-000);
-
-  --spacer: 1rem;
-  --spacer-2: calc(var(--spacer) * 1.5);
-  --spacer-3: calc(var(--spacer) * 3);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --body-color: var(--gray-300);
-    --body-bg: var(--gray-800);
-
-    --heading-color: #fff;
-
-    --link-color: var(--blue-300);
-    --link-hover-color: var(--blue-400);
-
-    --border-color: rgba(255, 255, 255, 0.15);
-
-    --code-bg: var(--gray-900);
-  }
-}
-
-// Dark Poole theme
-[data-theme="dark-poole"] {
-  --body-color: var(--dark-poole-002);
-  --body-bg: var(--dark-poole-001);
-  --heading-color: var(--dark-poole-002);
-  --link-color: var(--dark-poole-link-color);
-  --link-hover-color: var(--dark-poole-link-hover);
-  --border-color: rgba(255, 255, 255, 0.15);
-  --code-bg: var(--gray-900);
-}
+$large-breakpoint: 38em;
+$large-font-size: 20px;
