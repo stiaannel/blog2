@@ -13,6 +13,7 @@
   --dark-poole-002: hsl(0, 0%, 85%);
   --dark-poole-link-color: rgba(255, 255, 255, 0.75);
   --dark-poole-link-hover: #fff;
+  --black: #000;
 
   --red: #fa5252;
   --pink: #e64980;
@@ -35,7 +36,7 @@
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --body-font-size: 20px;
   --body-line-height: 1.5;
-  --body-color: var(--gray-700);
+  --body-color: var(--black);
   --body-bg: #fff;
 
   --link-color: var(--blue);
