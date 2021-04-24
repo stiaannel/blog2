@@ -1,8 +1,8 @@
 # Setup
 title: BlueDiablos Android Studio Blog
-url: https://bluediablos.github.io/blog
+url: https://bluediablos.github.io/
 paginate: 1
-baseurl: "/blog"
+baseurl: ""
 permalink: pretty
 
 # Gems
@@ -42,7 +42,7 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Archive
-    url: /blog/archive
+    url: /archive
 
   - title: About
-    url: /blog/about
+    url: /about
