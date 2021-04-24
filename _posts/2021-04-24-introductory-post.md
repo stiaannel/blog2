@@ -1,10 +1,10 @@
 ---
 layout: post
-title: What's Jekyll?
-date: 2008-12-06 09:30:00
+title: Introduction
+date: 2021-04-24
 categories: [Open Source]
 tags: [software]
-last_modified_at: 2019-12-23
+last_modified_at: 2021-04-24
 ---
 
 ## Welcome to Smol DB
