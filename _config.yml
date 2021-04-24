@@ -3,7 +3,7 @@ title: Blog
 tagline: a Hacking and Open-source intelligence tools I found
 url: https://BlueDiablos1234.github.io
 paginate: 1
-baseurl: "/introduction"
+baseurl: ""
 permalink: :title/
 
 kramdown:
