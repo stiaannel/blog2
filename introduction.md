@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Styles
+title: Introduction
 ---
 
 ## Welcome to this archive

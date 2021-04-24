@@ -1,6 +1,6 @@
 # Setup
 title: Blog
-tagline: a Hacking and Open-source intelligence tools I found
+tagline: Hacking and Open-source Intelligence Tools I Found
 url: https://BlueDiablos1234.github.io
 paginate: 1
 baseurl: ""
@@ -31,9 +31,6 @@ sass:
   style: :compressed
 
 # Options
-
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
 
 # Specify the author for blog posts
 author:
